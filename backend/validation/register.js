@@ -3,7 +3,6 @@ const isEmpty = require('is-empty');
 
 module.exports = function validateRegisterInput(data){
     let errors = {};
-}
 
 //convert empty values to empty string so validator can be used
 data.name = !isEmpty(data.name) ? data.name:"";
