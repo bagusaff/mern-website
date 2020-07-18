@@ -1,0 +1,26 @@
+{
+  "name": "mern-website",
+  "version": "1.0.0",
+  "description": "- Creating a website using MERN\r - Will update the progress here",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bagusaff/mern-website.git"
+  },
+  "author": "Bagus Amrullah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bagusaff/mern-website/issues"
+  },
+  "homepage": "https://github.com/bagusaff/mern-website#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.25"
+  }
+}
